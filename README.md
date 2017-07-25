@@ -46,10 +46,11 @@ Demo at: <http://agnostic.housegordon.org> .
 1. Locally with NodeJS:
 
         $ npm install -g browserify
-        $ npm install -g pegjs
+        $ npm install -g pegjs@0.8.0
         $ npm install -g uglify-js@1
         $ git clone https://github.com/agordon/agnostic
         $ cd agnostic
+        $(optional) pegjs src/shell_parser/posix_shell.pegjs & cp src/shell_parser/posix_shell.js src/node_modules/shell/posix_shell.js
         $ ./shell
 
     The `./shell` script will start an interactive-shell session, emulating a 'real' unix shell environment,
