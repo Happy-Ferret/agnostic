@@ -29,4 +29,4 @@ To see the syntax-JSON-structure, use the 'parse' tool.
 exit 0
 fi
 
-nodejs ./src/tools/shell_describe "$@"
+node ./src/tools/shell_describe "$@"

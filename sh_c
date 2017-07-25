@@ -25,4 +25,4 @@ Example:
 exit 1
 fi
 
-nodejs ./src/tools/sh_c.js "$1"
+node ./src/tools/sh_c.js "$1"

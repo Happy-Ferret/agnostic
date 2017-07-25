@@ -68,4 +68,4 @@ if ! which jq 2>/dev/null >/dev/null ; then
 	exit 1
 fi
 
-nodejs ./src/tools/shell_parse.js "$@" | jq .
+node ./src/tools/shell_parse.js "$@" | jq .

@@ -1,4 +1,4 @@
-NODEBIN ?= nodejs
+NODEBIN ?= node
 
 CMDDEMO1="sort -k1n,1 -u input.txt"
 CMDDEMO2="grep -i FOO <input.txt >output.txt"

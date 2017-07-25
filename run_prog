@@ -27,4 +27,4 @@ Example:
 exit 0
 fi
 
-nodejs ./src/tools/run_prog.js "$@"
+node ./src/tools/run_prog.js "$@"

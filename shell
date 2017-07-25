@@ -4,4 +4,4 @@
 #   Copyright (C) 2014 by Assaf Gordon <assafgordon@gmail.com>
 #   Released under GPLv3 or later
 
-nodejs ./src/tools/shell_interactive.js
+node ./src/tools/shell_interactive.js
